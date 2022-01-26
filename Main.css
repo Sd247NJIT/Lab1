@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #EAF2F9; /*light blue*/
+}
+
+body {
+    font-family: "Calibri Light", sans-serif;
+    margin: auto;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+header {
+    font-family: "Calibri Light", "Courier New", sans-serif;
+    background-color: #0E3955;
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #EFC496;
+    font-size: 20px;
+}
+
+/* me */
+
+.card-deck{
+    display: inline-block;
+    width: 90%;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.card1{
+    display: inline-block;
+    font-size: 23px;
+    text-align: left;
+    color:##391F04;
+    text-decoration: none;
+    list-style-type: none;
+    border-color: #0E3955;
+}
+
+/* Footer */
+footer {
+    background-color: #EFC496;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #0E3955;
+    height: 50px;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+    overflow: hidden;
+    clear: both;
+}
+
+footer p {
+    width: auto;
+    font-size: 15px;
+    text-align: left;
+}
